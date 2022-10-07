@@ -6,7 +6,7 @@
 <head>
 
     <meta charset="utf-8" />
-    <title>Sign In | Velzon - Admin & Dashboard Template</title>
+    <title>Sign In | Formify</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="Themesbrand" name="author" />
@@ -51,7 +51,6 @@
                                     <img src="assets/images/logo-light.png" alt="" height="20">
                                 </a>
                             </div>
-                            <p class="mt-3 fs-15 fw-medium">Premium Admin & Dashboard Template</p>
                         </div>
                     </div>
                 </div>
@@ -148,6 +147,7 @@
     <script src="{{ asset("assets/libs/node-waves/waves.min.js") }}"></script>
     <script src="{{ asset("assets/libs/feather-icons/feather.min.js") }}"></script>
     <script src="{{ asset("assets/js/pages/plugins/lord-icon-2.1.0.js") }}"></script>
+    <script src="{{ asset("assets/utils/url.js") }}"></script>
     <script src="{{ asset("assets/js/plugins.js") }}"></script>
 
     <!-- particles js -->
