@@ -2,10 +2,11 @@ var url = {
     base_url: function (module) {
         // var url_host = 'anomali';
         var url_protocol = window.location.protocol;
-        return url_protocol + '/' + module + '/';
+        let url_host = window.location.host;
+        // return url_protocol + '/' + module + '/';
         // return url_protocol + '/simi/' + module + '/';
         // return url_protocol + '/';
-        //  return url_protocol + '/' + url_host + '/' + module + '/'; //if framework
+        return url_protocol + '//' + url_host + '/' + module ; //if framework
         //  return url_protocol + '/' + url_host + '/' + module; //if native
     },
 
